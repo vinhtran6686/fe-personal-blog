@@ -1,0 +1,39 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Source code
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.json text
+*.html text
+*.css text
+*.scss text
+*.less text
+*.md text
+*.yaml text
+*.yml text
+
+# Binary files (no conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Specific to NestJS and Next.js
+*.module.ts linguist-language=TypeScript
+*.component.ts linguist-language=TypeScript
+*.service.ts linguist-language=TypeScript
+*.controller.ts linguist-language=TypeScript
+*.resolver.ts linguist-language=TypeScript
+*.middleware.ts linguist-language=TypeScript
+*.guard.ts linguist-language=TypeScript
+*.decorator.ts linguist-language=TypeScript
+*.filter.ts linguist-language=TypeScript
+*.pipe.ts linguist-language=TypeScript
+*.interceptor.ts linguist-language=TypeScript
+*.page.tsx linguist-language=TypeScript
+*.component.tsx linguist-language=TypeScript 

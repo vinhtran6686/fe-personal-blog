@@ -1,0 +1,16 @@
+# Global code owners
+* @project-owner
+
+# Frontend code owners
+/frontend/ @frontend-team
+
+# Backend code owners
+/backend/ @backend-team
+
+# Documentation owners
+/documents/ @documentation-team
+
+# Configuration files
+/.github/ @devops-team
+docker-compose.yml @devops-team
+*.config.js @devops-team 
