@@ -54,7 +54,7 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
                     >
                       {category}
                     </Link>
-                    {index < post.categories.length - 1 && ', '}
+                    {index < (post.categories?.length || 0) - 1 && ', '}
                   </React.Fragment>
                 ))}
               </span>
